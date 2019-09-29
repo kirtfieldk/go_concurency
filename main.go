@@ -4,8 +4,7 @@ import (
 	"fmt"
 	"runtime"
 	"sync"
-
-	"github.com/keithkfield/concurrency/Channels"
+	// Channels "Channels"
 )
 
 // These method prints out whats up three timesssss
@@ -60,5 +59,5 @@ func main() {
 	printGreetings()
 	printGreetingsFixed()
 	sizeOfGoroutines()
-	Channels.FuncThree()
+	// Channels.FuncThree()
 }
